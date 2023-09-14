@@ -1,0 +1,20 @@
+:root{
+    --titulo-pricipal:#be0b0bb4;
+    --cor-do-texto:#1c368b;
+    --cor-de-fundo:#000000;
+    --cor-de-botao:#FFCBDB;
+}
+body{
+    background-color: var(--cor-de-fundo);
+
+}
+h1{
+    color: var(--titulo-pricipal)
+}
+
+
+    
+
+
+
+
