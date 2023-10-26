@@ -1,39 +1,31 @@
 :root{
-    --titulo-pricipal:#be0b0bb4;
-    --cor-do-texto:#1c368b;
+    --titulo-principal:#ff0000;
+    --cor-do-texto:#008000;
     --cor-de-fundo:#000000;
-    --cor-de-botao:#FFCBDB;
+    --cor-do-botao:#FFCBDB;
 }
 body{
-    background-color: var(--cor-de-fundo);
+    background-color:var(--cor-de-fundo);
 }
 h1{
-    color: var(--titulo-pricipal);
+    color:var(--titulo-principal);
 }
-*{
-margin: 0;
-padding: 0;
-}
-.principal{
-    background-image:url(funfo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+*{   
+ margin:0;
+ padding 0;   
 }
 
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 
-
+}.container_botao{
+    background-color: var(--cor-do-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color:var(--cor-de-texto);
+    display: block;
+    text-decoration: none;
     
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
+}
